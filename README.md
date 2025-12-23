@@ -1,5 +1,14 @@
 # Medical-domain Machine Translation (VLSP-2025)
 
+## Best model download
+```
+# Github release
+https://github.com/minhnvm2307/Medical_MT/releases/download/v1/envit5-vlsp.zip
+
+# Hugging face
+https://huggingface.co/minhnvm/envit5-finetuned-medical-vlsp2025
+```
+
 ## Setup
 - Python 3.12+
 - Install dependencies:
@@ -47,16 +56,16 @@ VLSP-2025
 
 ### 1. Qwen on VLSP-2025 dataset (BLEU)
 
-| Model | BLEU |
+| Model | EN-VI |
 | --- | --- |
 | Base | 26.13 |
 | 150k data | 30.12 |
 
 ### 2. VietAI envit5 on VLSP dataset (BLEU)
 
-| Model | BLEU |
-| --- | --- |
-| Base | 40.75 |
-| 150k data | 45.66 |
-| 300k data | 47.02 |
-| 500k data | TBD |
+| Model | EN-VI | VI-EN
+| --- | --- | --- |
+| Base | 40.75 | 24.09 |
+| 150k data | 45.66 | 34.50 |
+| 300k data | 47.02 | 35.02 |
+| 500k data | 48.80 | 38.62 |
