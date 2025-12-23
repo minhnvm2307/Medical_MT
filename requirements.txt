@@ -1,0 +1,8 @@
+numpy
+torch
+transformers
+datasets
+sacrebleu
+rouge-score
+nltk
+peft
